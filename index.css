@@ -1,0 +1,19 @@
+.container li{
+    color:tomato;
+    font-size: 2rem;
+    width: 42%;
+}
+.container ul{
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: teal;
+}
+@media (max-width:400px){
+    .container li{
+        width: 80%;
+    }
+}
